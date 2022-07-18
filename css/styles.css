@@ -1,0 +1,455 @@
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.Top-container {
+    background-color: #e75a90;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #D6EFED;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.bottom-container {
+    background-color: #030835f3;
+    padding: 40px 0 20px;
+    margin: auto;
+}
+
+.My-image {
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+}
+
+
+.Caption {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.def {
+    font-size: 2rem;
+}
+
+
+
+.SE {
+    border-radius: 20px;
+}
+
+/* The UI/UX image styling */
+
+.UI {
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.Left-side-image {
+    width: 200px;
+    height: 200px;
+}
+
+.Right-side-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* The id element styling of my name at the sub-top section */
+
+#name {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-bottom: 0;
+}
+
+/* The paragragh element styling with its font */
+
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+
+
+/* The h2 styling of the website */
+
+h2 {
+    color: #F637EC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #F637EC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 2px solid #F637EC;
+}
+
+/* The bulb-like image styling at the top-most part  */
+
+.Top-image{
+    position: absolute;
+    right: 230px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+
+}
+
+/* The styling of the two star-like icon at the sub-top of the website */
+
+.First-snow {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    width: 150px;
+    height: 150px;
+}
+
+.Second-snow {
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+    width: 150px;
+    height: 150px;
+}
+
+/* The contact me message styling */
+
+#Contact-me-message {
+    margin-bottom: 80px;
+}
+
+/* The contact me button stylings */
+
+.btn {
+    background: #CA4E79;
+    background-image: -webkit-linear-gradient(top, #CA4E79, #570b45);
+    background-image: -moz-linear-gradient(top, #CA4E79, #570b45);
+    background-image: -ms-linear-gradient(top, #CA4E79, #570b45);
+    background-image: -o-linear-gradient(top, #CA4E79, #570b45);
+    background-image: linear-gradient(to bottom, #CA4E79, #570b45);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: WHITE;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #d07ee0;
+    background-image: -webkit-linear-gradient(top, #d07ee0, #8a2c8a);
+    background-image: -moz-linear-gradient(top, #d07ee0, #8a2c8a);
+    background-image: -ms-linear-gradient(top, #d07ee0, #8a2c8a);
+    background-image: -o-linear-gradient(top, #d07ee0, #8a2c8a);
+    background-image: linear-gradient(to bottom, #d07ee0, #8a2c8a);
+    text-decoration: none;
+  }
+
+  /* The anchor tages fonts and stylings */
+
+  a{
+    color: #3e63a8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #AEDBCE;
+  }
+
+  /* The copyright stylings */
+
+  .copyright {
+    margin: 30px 0;
+    font-size: 0.80rem;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+  }
+
+  /* The mobile responsive section using media queries */
+
+  @media (max-width: 30.625rem) {
+    body {
+        margin: 0;
+        text-align: center;
+        width: 62.5rem;
+    }
+
+    .Top-container {
+        background-color: #e75a90;
+        position: relative;
+        padding-top: 100px;
+        width: 62.5rem;
+    } 
+    
+    .Top-image{
+        position: absolute;
+        right: 8.25rem;
+        top: 40px;
+        width: 100px;
+        height: 100px;
+    
+    }
+
+    .middle-container p {
+       margin: 0 30px;
+       font-size: 2.5em;
+       line-height: 1.7;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    .btn {
+        padding: 20px 30px 20px 30px;
+        font-size: 1.875rem;
+    }
+
+    #Self-intro {
+        margin-bottom: 6.25rem;
+    }
+
+    #Alx {
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 1.875rem;
+    }
+
+    #UIUX {
+        margin-bottom: 6.25rem;
+    }
+
+
+    #web-dev {
+        margin-bottom: 6.25rem;
+    }
+
+    .bottom-container {
+        padding-top: 1.875rem;
+    }
+
+    #Linkedin {
+        font-size: 4.3rem;
+    }
+
+    #Twitter {
+        font-size: 4.3rem;
+    }
+
+    #Facebook {
+        font-size: 4.3rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+
+    .SE {
+        margin: 0 10px 0 10px;
+        width: 57.5rem;
+        height: 38.75rem;
+    }
+
+    .First-snow {
+        position: absolute;
+        bottom: 90px;
+        left: 60px;
+        width: 110px;
+        height: 110px;
+    }
+    
+    .Second-snow {
+        position: absolute;
+        bottom: 90px;
+        right: 60px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .Left-side-image {
+        display: none;
+    }
+
+    .Right-side-image {
+        float: inherits;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        width: 180px;
+        height: 180px;
+        margin-right: 10px;
+    }
+
+    .UI {
+        width: 700px;
+        height: 600px;
+        border-radius: 20px;
+        margin: 20px 20px 10px 20px;
+    }
+  }
+
+  /* The tablet responsive section using media queries */
+
+  @media (min-width: 48rem) {
+    body {
+        width: 62.5rem;
+    }
+
+    .Top-image {
+        position: absolute;
+        right: 8.25rem;
+        top: 40px;
+    }
+
+    .middle-container p {
+        margin: 0 30px;
+        font-size: 2.5em;
+        line-height: 1.5;
+    }
+
+    .bottom-container {
+        padding-top: 1.875rem;
+    }
+
+    #Linkedin {
+        font-size: 3.5rem;
+    }
+
+    #Twitter {
+        font-size: 3.5rem;
+    }
+
+    #Facebook {
+        font-size: 3.5rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+
+
+    .SE {
+        margin: 0 10px 0 10px;
+        width: 57.5rem;
+        height: 38.75rem;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    .btn {
+        padding: 20px 30px 20px 30px;
+        font-size: 1.875rem;
+    }
+
+    #Self-intro {
+        margin-bottom: 6.25rem;
+    }
+
+    #Alx {
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 2.5rem;
+    }
+
+    #UIUX {
+        margin-bottom: 6.25rem;
+    }
+
+
+    #web-dev {
+        margin-bottom: 6.25rem;
+    }
+
+    .UI {
+        margin: 20px auto;
+    }
+
+    .Left-side-image {
+        display: none;
+    }
+    .Right-side-image {
+        margin-left: 30px;
+    }
+  }
+
+  /* The desktop or laptop responsive design stylings */
+
+  @media (min-width: 62.5rem) {
+    body {
+        width: 85rem;
+    }
+
+    .Top-image {
+        position: absolute;
+        right: 8.25rem;
+        top: 40px;
+    }
+
+    .middle-container p {
+        margin: 0 30px;
+        line-height: 1.5;
+     }
+
+     .SE {
+        margin: 0 10px 0 10px;
+        width: 57.5rem;
+        height: 38.75rem;
+    }
+    .UI {
+        margin: 20px auto;
+    }
+
+    .bottom-container {
+        font-size: 2.5rem;
+        padding-top: 1.875rem;
+    }
+
+    #Linkedin {
+        font-size: 3.5rem;
+    }
+
+    #Twitter {
+        font-size: 3.5rem;
+    }
+
+    #Facebook {
+        font-size: 3.5rem;
+    }
+    
+
+
+  }
